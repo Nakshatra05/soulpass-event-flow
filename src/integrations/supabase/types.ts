@@ -70,8 +70,11 @@ export type Database = {
           events_approved: number | null
           events_attended: number | null
           full_name: string | null
+          github_url: string | null
           id: string
+          linkedin_url: string | null
           reputation_score: number | null
+          twitter_url: string | null
           updated_at: string
           user_id: string
         }
@@ -82,8 +85,11 @@ export type Database = {
           events_approved?: number | null
           events_attended?: number | null
           full_name?: string | null
+          github_url?: string | null
           id?: string
+          linkedin_url?: string | null
           reputation_score?: number | null
+          twitter_url?: string | null
           updated_at?: string
           user_id: string
         }
@@ -94,8 +100,11 @@ export type Database = {
           events_approved?: number | null
           events_attended?: number | null
           full_name?: string | null
+          github_url?: string | null
           id?: string
+          linkedin_url?: string | null
           reputation_score?: number | null
+          twitter_url?: string | null
           updated_at?: string
           user_id?: string
         }
